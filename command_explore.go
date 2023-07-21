@@ -7,7 +7,7 @@ import (
 
 func commandExplore(params []string, cfg *config) error {
 	if len(params) == 0 {
-		return errors.New("location paramater required")
+		return errors.New("location area is required")
 	}
 
 	locationAreaName := params[0]
